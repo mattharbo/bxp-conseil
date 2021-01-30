@@ -17,6 +17,10 @@ $beigebxp:#FAF0E6;
   border-bottom: 10px solid $darkbluebxp;
 }
 
+.pinkbottomborder{
+  border-bottom: 10px solid $pinkbxp;
+}
+
 .pinkbg{
   background-color: $beigebxp;
 }
@@ -58,7 +62,7 @@ $beigebxp:#FAF0E6;
 }
 
 .first-panel > .right-content{
-  background-color: #ffff0014;
+  background-color: #faf0e62b;
   width: 500px;
   height: 300px;
 }
@@ -114,4 +118,42 @@ $beigebxp:#FAF0E6;
 
 .big-card > p{
   padding-bottom: 20px;
+}
+
+.fourth-panel{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 40px 0;
+}
+
+.fourth-panel p{
+  width: 600px;
+  text-align: center;
+}
+
+.fifth-panel{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0 50px 0;
+}
+
+.small-card{
+  width: 200px;
+  height: 270px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 40px;
+  -webkit-box-shadow: 0px 1px 5px 1px #DDDDDD;
+  box-shadow: 0px 1px 5px 1px #DDDDDD;
+}
+
+.small-card > h3{
+  font-size: 15px;
+  color: $bluebxp;
+  margin-bottom: 25px;
+  text-align: center;
 }
