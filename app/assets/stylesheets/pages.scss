@@ -1,3 +1,117 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+$bluebxp:#215CFE;
+$darkbluebxp:#040462;
+$pinkbxp:#DD7572;
+$lightpinkbxp:#dd75722e;
+$beigebxp:#FAF0E6;
+
+.darkblueborders{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-left: 10px solid $darkbluebxp;
+  border-right: 10px solid $darkbluebxp;
+  border-bottom: 10px solid $darkbluebxp;
+}
+
+.pinkbg{
+  background-color: $beigebxp;
+}
+
+.container-header{
+  position: relative;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.extrasmall {
+  width: 140px;
+}
+
+.small {
+  width: 300px;
+}
+
+.large {
+  width: 710px;
+}
+
+.ticker{
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background-color: $pinkbxp;
+  top: 55px;
+}
+
+.first-panel{
+  // height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0 30px 0;
+}
+
+.first-panel > .right-content{
+  background-color: #ffff0014;
+  width: 500px;
+  height: 300px;
+}
+
+.first-panel p{
+  width: 440px;
+  margin-bottom: 25px;
+}
+
+.second-panel{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+}
+
+.second-panel p{
+  text-align: center;
+}
+
+.third-panel{
+  // height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0 50px 0;
+}
+
+.big-card{
+  width: 330px;
+  height: 355px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 40px;
+  -webkit-box-shadow: 0px 1px 5px 1px #DDDDDD;
+  box-shadow: 0px 1px 5px 1px #DDDDDD;
+}
+
+.big-card > h3{
+  color: $bluebxp;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.big-card > ul{
+  margin-left: -15px;
+  line-height: 1.7em;
+  font-size: 14px;
+  color:$darkbluebxp;
+}
+
+.big-card > p{
+  padding-bottom: 20px;
+}

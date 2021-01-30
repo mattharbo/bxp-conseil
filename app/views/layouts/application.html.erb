@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bxpwebv2</title>
+    <title>bxp. | Un nouveau regard sur vos baux et projets immobiliers</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,33 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <!-- ########## Separateur ########## -->
+
+    <div class="slider yellow">
+
+      <div class="container">
+
+        <div class="header">
+
+          <%= link_to root_path do%>
+            <img src="logo-bxp-website.png" class="header-logo">
+          <%end%>
+
+          <ul class="header-menu">
+            <li>Service</li>
+            <li>Outil</li>
+            <li>Qui sommes-nous ?</li>
+            <li>Nous contacter</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <%= yield %>
+
+      <!-- ########## Footer ########## -->
+
   </body>
 </html>

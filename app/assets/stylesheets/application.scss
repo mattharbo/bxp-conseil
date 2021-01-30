@@ -1,0 +1,82 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+$bluebxp:#215CFE;
+$darkbluebxp:#040462;
+$pinkbxp:#DD7572;
+$beigebxp:#FAF0E6;
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin:0;
+}
+
+h1, h2, h3, ul{
+  margin:0;
+}
+
+p{
+  margin: 0;
+  line-height: 1.7em;
+}
+
+.slider{
+  width: 100%;
+  display: block;
+}
+
+// ***********************************
+// ***********************************
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header{
+	// z-index:1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+	// background-color: $pinkbxp;
+  font-weight: 700;
+  height: 50px;
+  padding: 10px 0 0 0;
+}
+
+.header-logo{
+  width: 100px;
+  height: 47px;
+  // background-color: purple;
+}
+
+.header-menu{
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+	padding: 0;
+  // background-color: green;
+}
+
+.header-menu li{
+  display: inline;
+  padding-left: 30px;
+}
