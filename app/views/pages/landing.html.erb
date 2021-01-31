@@ -109,14 +109,14 @@
 <div class="slider darkblueborders">
   <div class="container sixth-panel">
 
-    <a href="mailto:name@email.com?subject=BXP | Renseignement mono site">
+    <a href="mailto:contact@bxp-conseil.fr?subject=BXP | Renseignement mono site">
       <div class="medium-card">
         <%= image_tag("one-site.png", size: "49x73") %>
         <p>1 site ? &#128205;<br>Je souhaite être recontacté</p>
       </div>
     </a>
 
-    <a href="mailto:name@email.com?subject=BXP | Renseignement multi sites">
+    <a href="mailto:contact@bxp-conseil.fr?subject=BXP | Renseignement multi sites">
       <div class="medium-card">
         <%= image_tag("several-site.png", size: "63x73") %>
         <p>Plusieurs sites ? &#128205;&#128205;<br>Je souhaite être recontacté</p>
@@ -169,7 +169,7 @@
 
 <div class="slider pinkbottomborder">
   <div class="container">
-      <a href="mailto:name@email.com?subject=BXP | Demande démo plateforme">
+      <a href="mailto:contact@bxp-conseil.fr?subject=BXP | Demande démo plateforme">
         <div class="btn-demo">
           Demander une démo
         </div>
@@ -229,6 +229,6 @@
   <div class="container footer">
     <p>Tous droits réservés © bxp. 2021</p>
     <%= image_tag("logo-footer.png", :class => "logo-footer") %>
-    <a href="#">Mentions légales</a>
+    <%= link_to "Mentions légales", mentions_legales_path%>
   </div>
 </div>
