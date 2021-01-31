@@ -7,6 +7,7 @@ $darkbluebxp:#040462;
 $pinkbxp:#DD7572;
 $lightpinkbxp:#dd75722e;
 $beigebxp:#FAF0E6;
+$darkbluebtn:#0747f7;
 
 .darkblueborders{
   box-sizing: border-box;
@@ -162,8 +163,9 @@ $beigebxp:#FAF0E6;
 }
 
 .subtitle{
-  font-weight: 800;
+  font-weight: 700;
   color: $pinkbxp;
+  font-size: 19px;
 }
 
 .fifth-panel{
@@ -237,11 +239,11 @@ $beigebxp:#FAF0E6;
   margin-bottom: 50px;
   border-radius: 7px;
   font-weight: 700;
-  color: white;
+  color: white !important;
 }
 
 .btn-demo:hover{
-  background-color: $darkbluebxp;
+  background-color: $darkbluebtn;
   cursor: pointer;
 }
 
