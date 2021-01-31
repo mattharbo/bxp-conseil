@@ -58,7 +58,7 @@ $beigebxp:#FAF0E6;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  padding: 30px 0 30px 0;
+  padding: 40px 0 20px 0;
 }
 
 .first-panel > .right-content{
@@ -70,6 +70,10 @@ $beigebxp:#FAF0E6;
 .first-panel p{
   width: 440px;
   margin-bottom: 25px;
+}
+
+.left-content p{
+  font-size: 16px;
 }
 
 .second-panel{
@@ -133,6 +137,11 @@ $beigebxp:#FAF0E6;
   text-align: center;
 }
 
+.subtitle{
+  font-weight: 800;
+  color: $pinkbxp;
+}
+
 .fifth-panel{
   display: flex;
   flex-wrap: wrap;
@@ -156,4 +165,84 @@ $beigebxp:#FAF0E6;
   color: $bluebxp;
   margin-bottom: 25px;
   text-align: center;
+}
+
+.sixth-panel{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 50px 0;
+}
+
+.sixth-panel > p{
+  text-align: justify;
+  width: 700px;
+  padding: 30px 0 50px 0;
+}
+
+.medium-card{
+  width:220px;
+  padding: 20px 60px;
+  text-align: center;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+
+.medium-card > p{
+  margin-top:10px;
+}
+
+.medium-card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn-demo{
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background-color: $bluebxp;
+  margin-bottom: 50px;
+  border-radius: 7px;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-demo:hover{
+  background-color: $darkbluebxp;
+  cursor: pointer;
+}
+
+.avatar{
+  width: 145px;
+  height: 145px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.linkedin{
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.teammate-card{
+  width:220px;
+  padding: 20px 60px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.teammate-card > a > p{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.teammate-card > p:hover{
+  color: $bluebxp;
+  cursor: pointer;
 }
