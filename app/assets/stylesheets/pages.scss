@@ -52,6 +52,28 @@ $beigebxp:#FAF0E6;
   top: 55px;
 }
 
+.tagline-panel{
+  margin: 60px 90px 30px 90px;
+}
+
+.tagline-panel h1{
+  color: $darkbluebxp;
+}
+
+.tagline-panel > p{
+  margin-top: 20px;
+}
+
+.highlight1{
+  background-color: $beigebxp;
+  color: $darkbluebxp;
+}
+
+.highlight2{
+  color: $pinkbxp;
+  background-color: white;
+}
+
 .first-panel{
   // height: 50vh;
   display: flex;
