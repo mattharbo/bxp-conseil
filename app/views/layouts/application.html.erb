@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <meta name="description" content="bxp. | Une nouvelle approche de l'immobilier pour les entreprises">
+
+    <meta property="og:title" content="bxp. | Une nouvelle approche de l'immobilier pour les entreprises">
+    <meta property="og:description" content="Des contrats qualibrés, des coûts optimisés, une gestion simplifiée">
+    <meta property="og:image" content="apple-touch-icon.png">
+    <meta property="og:site_name" content="bxp-conseil">
+
     <title>bxp. | Une nouvelle approche de l'immobilier pour les entreprises</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <%= favicon_link_tag asset_path('favicon.svg') %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <% if request.host == 'bxp-conseil.fr' %>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48767185-4"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-48767185-4');
+
+          document.addEventListener('turbolinks:load', event => {
+           if (typeof gtag === 'function') {
+             gtag('config', 'UA-48767185-4', {
+               'page_location': event.data.url
+             });
+           }
+         });
+        </script>
+    <% end %>
   </head>
 
   <body>
@@ -24,11 +52,15 @@
             <img src="logo-bxp-website.png" class="header-logo">
           <%end%>
 
+          <a href="javascript:void(0);" class="header_mobile_menu_cta" onclick="expandMobileMenu()">
+            Menu
+          </a>
+
           <ul class="header-menu">
             <li><a href="#service">Service</a></li>
             <li><a href="#outil">Outil</a></li>
             <li><a href="#equipe">Qui sommes-nous ?</a></li>
-            <li><a href="mailto:contact@bxp-conseil.fr?subject=BXP | Contact via site" class="btn-demo">Nous contacter</a></li>
+            <li><a href="mailto:contact@bxp-conseil.fr?subject=BXP | Contact via site" class="btn-contact-menu">Nous contacter</a></li>
           </ul>
 
         </div>
