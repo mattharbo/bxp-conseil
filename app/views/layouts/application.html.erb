@@ -17,7 +17,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <% if request.host == 'bxp-conseil.fr' %>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48767185-4"></script>
@@ -52,11 +51,11 @@
             <img src="logo-bxp-website.png" class="header-logo">
           <%end%>
 
-          <a href="javascript:void(0);" class="header_mobile_menu_cta" onclick="expandMobileMenu()">
+          <div id="mobile_menu" href="javascript:void(0);" class="header_mobile_menu_cta">
             Menu
-          </a>
+          </div>
 
-          <ul class="header-menu">
+          <ul id="header-menu">
             <li><a href="#service">Service</a></li>
             <li><a href="#outil">Outil</a></li>
             <li><a href="#equipe">Qui sommes-nous ?</a></li>
@@ -72,4 +71,6 @@
       <!-- ########## Footer ########## -->
 
   </body>
+
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 </html>
