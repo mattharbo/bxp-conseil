@@ -288,3 +288,98 @@ $darkbluebtn:#0747f7;
   margin:0 auto;
   padding-top:30px;
 }
+
+@media (max-width: 767px) {
+  .large{
+    width: 100%;
+  }
+  .first-panel {
+    width: 100%;
+  }
+  .first-panel > .left-content{
+    width: 100%;
+    margin-bottom: -20px;
+  }
+  .first-panel > .left-content > p{
+    width: auto;
+    padding: 0 30px;
+  }
+  .first-panel > .right-content{
+    display: none;
+  }
+  .tagline-panel{
+    margin: 0px 25px;
+  }
+  .tagline-panel > h1{
+    font-size: 26px;
+  }
+  .big-card{
+    background-color: white;
+    border-radius: 0px;
+    padding: 30px 40px;
+    -webkit-box-shadow: 0px 1px 5px 1px #DDDDDD;
+    box-shadow: 0px 1px 5px 1px #DDDDDD;
+  }
+  .big-card:first-child{
+    margin-bottom: 50px;
+    height: 385px;
+  }
+  .big-card:last-child{
+    height: 320px;
+  }
+  .third-panel{
+    padding: 30px 0 20px 0;
+  }
+  .container-header.large > .ticker{
+    top:100px;
+  }
+  .fourth-panel:last-child{
+    padding: 40px 0 10px 0;
+  }
+  .fourth-panel:last-child > p{
+    padding: 0 20px 0 20px;
+  }
+  .small-card{
+    margin-bottom: 20px;
+  }
+  .container.fifth-panel{
+    margin-bottom: -25px;
+  }
+  .teammate-card{
+    padding: 15px 60px;
+  }
+  #contact p{
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .right-content {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .right-content img{
+    width: 450px;
+    height: 270px;
+  }
+  .big-card{
+    margin-top:40px;
+  }
+  .third-panel{
+    padding: 0;
+  }
+  .fourth-panel{
+    padding: 30px 0 30px 0;
+  }
+  .small-card:last-child{
+    margin-top:40px;
+  }
+  .fifth-panel{
+    padding: 0px ​0 50px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}

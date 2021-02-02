@@ -111,3 +111,64 @@ a:hover{
   width: 46px;
   height: 46px;
 }
+
+@media (max-width: 767px) {
+	body{
+		overflow-x: hidden;
+    // background-color: yellow;
+	}
+	.container{
+		width:100%;
+	}
+  .header{
+    display: none;
+  }
+  .footer{
+    // display: none;
+  }
+  .slider{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+		overflow-x: hidden;
+    background-color: orange;
+	}
+	.container{
+		width:100%;
+	}
+  .header{
+    padding: 10px 30px 0 30px;
+  }
+  .footer > p{
+    padding-left: 30px;
+  }
+  .footer > a{
+    text-align: right;
+    padding-right: 30px;
+    color: grey;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	body{
+		// overflow-x: hidden;
+    background-color: green;
+	}
+	.container{
+		width:100%;
+	}
+  .header{
+    padding: 10px 30px 0 30px;
+  }
+  .footer > p{
+    padding-left: 30px;
+  }
+  .footer > a{
+    text-align: right;
+    padding-right: 30px;
+    color: grey;
+  }
+}
