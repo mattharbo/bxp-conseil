@@ -354,6 +354,16 @@ $darkbluebtn:#0747f7;
   .sixth-panel:last-child{
     padding: 0 0 30px 0;
   }
+  .legal-page-content{
+    width: 100%;
+    margin:0 0 20px 0;
+  }
+  .legal-page-content > p{
+    padding: 0 30px;
+  }
+  .legal-page-content > h4{
+    padding: 0 30px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -379,6 +389,16 @@ $darkbluebtn:#0747f7;
   }
   .fifth-panel{
     padding: 0px ​0 50px 0;
+  }
+  .legal-page-content{
+    width: 100%;
+    margin:0 0 20px 0;
+  }
+  .legal-page-content > p{
+    padding: 0 30px;
+  }
+  .legal-page-content > h4{
+    padding: 0 30px;
   }
 }
 
